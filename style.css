@@ -1,0 +1,30 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  color: #373fff;
+}
+
+div {
+  margin: 2em 1em;
+}
+
+#statusDiv {
+  background-color: #eee;
+}
+
+button {
+  background-color: #373fff;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: none;
+}
+
+button:hover {
+  background-color: #7347de;
+}

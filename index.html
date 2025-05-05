@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Screen Wake Lock Demo</title>
+    <meta charset="UTF-8" />
+    <!-- <script>
+      if (location.protocol !== 'https:') {
+        location.protocol = 'https:';
+      }
+    </script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>screen wake lock demo</h1>
+    <div>
+      <label
+        ><input type="checkbox" id="wakeLockCheckbox" />activate
+        <code>screen</code> wake lock</label
+      >
+    </div>
+    <div>
+      <label
+        ><input type="checkbox" id="reacquireCheckbox" />re-acquire
+        <code>screen</code> wake lock on visibility changes (for example,
+        changing tabs)</label
+      >
+    </div>
+    <div>
+      <button id="fullScreenButton" type="button">go full screen</button>
+    </div>
+    <div id="statusDiv"></div>
+  </body>
+</html>

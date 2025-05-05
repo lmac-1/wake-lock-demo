@@ -1,4 +1,4 @@
-# Wake up lock example
+# Screen Wake Lock example
 
 This is a basic example of how to use the Screen Wake Lock API
 
