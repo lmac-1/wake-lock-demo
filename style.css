@@ -15,6 +15,9 @@ div {
 
 #statusDiv {
   background-color: #eee;
+  width: fit-content;
+  text-transform: lowercase;
+  padding: 10px;
 }
 
 button {
